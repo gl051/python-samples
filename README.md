@@ -1,2 +1,2 @@
 # python_examples
-Snippet code for common task in python 3.
+Snippets code for common task in python 3.
