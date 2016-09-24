@@ -1,0 +1,109 @@
+[
+  {
+    "type": "directory",
+    "name": ".",
+    "contents": [
+      {
+        "type": "directory",
+        "name": "demo",
+        "contents": [
+          {
+            "type": "file",
+            "name": "demo-argparse.py"
+          },
+          {
+            "type": "file",
+            "name": "demo-csv.py"
+          },
+          {
+            "type": "file",
+            "name": "demo-hjson.py"
+          },
+          {
+            "type": "file",
+            "name": "demo-logging.py"
+          },
+          {
+            "type": "file",
+            "name": "demo-osenviron.py"
+          },
+          {
+            "type": "file",
+            "name": "demo.csv"
+          },
+          {
+            "type": "file",
+            "name": "demo.hjson"
+          }
+        ]
+      },
+      {
+        "type": "file",
+        "name": "filedir.json"
+      },
+      {
+        "type": "directory",
+        "name": "github",
+        "contents": [
+          {
+            "type": "directory",
+            "name": "instagram-scraper",
+            "contents": [
+              {
+                "type": "file",
+                "name": "LICENSE"
+              },
+              {
+                "type": "file",
+                "name": "README.md"
+              },
+              {
+                "type": "file",
+                "name": "config.txt.sample"
+              },
+              {
+                "type": "file",
+                "name": "instagram_scraper.py"
+              },
+              {
+                "type": "file",
+                "name": "requirements.txt"
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "unit-test-demo",
+            "contents": [
+              {
+                "type": "file",
+                "name": "LICENSE"
+              },
+              {
+                "type": "file",
+                "name": "README.md"
+              },
+              {
+                "type": "file",
+                "name": "anagram.py"
+              },
+              {
+                "type": "file",
+                "name": "anagram.pyc"
+              },
+              {
+                "type": "file",
+                "name": "test-anagram.py"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "report",
+    "directories": 4,
+    "files": 18
+  }
+]
