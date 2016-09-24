@@ -13,13 +13,13 @@ with open(FOUT, 'r') as f:
 
 # Depending on the JSON format you get a different JSON object
 if isinstance(json_data, dict):
-    print 'json passed is an array --> python object is a dict'
-    print 'keys() = {}'.format(json_data.keys())
+    print ('json passed is an array --> python object is a dict')
+    print ('keys() = {}'.format(json_data.keys()))
 elif isinstance(json_data, list):
-    print 'json passed is an array --> python object is a list'
-    print 'len() = {}'.format(len(json_data))
+    print ('json passed is an array --> python object is a list')
+    print ('len() = {}'.format(len(json_data)))
 else:
-    print type(json_data)
+    print (type(json_data))
 
 
 # --------------------------
@@ -34,4 +34,4 @@ FOUT = './output/test.json'
 with open(FOUT, 'w') as fout:
     json.dump(fake_data, fout)
 pprint(fake_data)
-print 'Save to {}'.format(FOUT)
+print ('Save to {}'.format(FOUT))
