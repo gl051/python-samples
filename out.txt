@@ -1,0 +1,5 @@
+2016-09-23 17:41:28,452 - [   DEBUG]: this is debug
+2016-09-23 17:41:28,452 - [ WARNING]: this is warning
+2016-09-23 17:41:28,452 - [    INFO]: this is info
+2016-09-23 17:41:28,452 - [   ERROR]: this is error
+2016-09-23 17:41:28,452 - [CRITICAL]: this is critical
