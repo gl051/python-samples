@@ -8,7 +8,7 @@ LOG_FILE = './output/test.log'
 logger = logging.getLogger('MyApp')
 
 # Define a formatter for the messages
-formatter = logging.Formatter('%(asctime)s - [%(levelname)8s]: %(message)s')
+formatter = logging.Formatter('%(asctime)s - [%(levelname)s]: %(message)s')
 
 # Create handler for streaming the log.
 # You can have more than one.
