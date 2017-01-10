@@ -13,14 +13,14 @@ with open(FILENAME, 'r') as f:
     dict_config = hjson.loads(content)
 
 for key in dict_config.keys():
-    print (dict_config[key]['func'])
+    print(dict_config[key]['func'])
 
-print ('test')
+print('test')
 prop_name = 'age'
-print (dict_config[prop_name])
+print(dict_config[prop_name])
 if prop_name in dict_config.keys():
     if 'range' in dict_config[prop_name].keys():
         rtval = random.choice(dict_config[prop_name]['range'])
     elif 'func' in dict_config[prop_name].keys():
         rtval = dict_config[prop_name]['func']
-print (rtval)
+print(rtval)

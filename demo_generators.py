@@ -7,23 +7,25 @@ gen_a = (len(n) for n in names)
 print(next(gen_a))
 print(next(gen_a))
 
+
 # You define a generator function, using the yield keyword to return a value
 def my_generator():
     names = ['Gianluca', 'Lisa', 'Sofia', 'Giulia']
     for i in names:
         yield i
 
+
 # You define a generator iterator as an instance of the function
 gen = my_generator()
 
 # You call next to generate the next value
-print (next(gen))
-print (next(gen))
+print(next(gen))
+print(next(gen))
 
 # Being the generator an iterator you can use it in a for loop as well
 # notes that we keep generating from where we left
 for val in gen:
-    print (val)
+    print(val)
 
 # Remember: generators are used to generate the next value,
 # they allow you to iterate over values without having to load them

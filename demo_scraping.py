@@ -20,7 +20,7 @@ try:
     response = requests.get(endpoint, payload)
     # check that we got a page back
     if response.status_code is not requests.codes.ok:
-        print ('Error with this url {}'.format(r.url))
+        print('Error with this url {}'.format(response.url))
     else:
         # use BeautifulSoup to parse the HTML file returned
         soup = BeautifulSoup(response.text, "html.parser")
@@ -30,9 +30,9 @@ try:
         # get the title (form the tag value)
         titles = [tag.string for tag in tags]
         # print order by popularity
-        print ("YEAR: {}".format(year))
+        print("YEAR: {}".format(year))
         for i, t in enumerate(titles, start=1):
-            print ("#{} {}".format(i, t))
+            print("#{} {}".format(i, t))
 except Exception as ex:
-    print ('Ops, something went wrong!')
-    print (ex)
+    print('Ops, something went wrong!')
+    print(ex)
