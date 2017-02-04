@@ -47,7 +47,7 @@ def retry(func):
     return wrapper
 
 
-# Decoration functions
+# Decorated functions
 
 
 @simple_decorator
