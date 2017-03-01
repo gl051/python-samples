@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """Demoing os environment variables passing."""
 
 import os

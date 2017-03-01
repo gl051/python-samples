@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
     Decorators are a special kind of function, a kind of function that takes one
     function object as an argument, and returns another function object as a result.

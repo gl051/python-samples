@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """ Demo-ing argparse. """
 
 import argparse

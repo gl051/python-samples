@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """Demo file reading CSV file."""
 
 import csv

@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """Demoing json."""
 
 import hjson

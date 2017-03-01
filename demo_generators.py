@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Use generators to avoid crashed in memory when needed to interate on large set of data
 
 # Generators can be built with the syntax of list comprehensions but inside ()

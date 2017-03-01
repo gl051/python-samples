@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import os
 
 # from the current directory get the list of files ending with .py

@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """ Demo loading and saving JSON"""
 import json
 from pprint import pprint
