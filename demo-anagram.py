@@ -9,6 +9,7 @@
     s = "rat", t = "car", return false.
 """
 
+
 def is_anagram(s, t):
     """
         Using an hash table, no sorting necessary. We iterate on the the two

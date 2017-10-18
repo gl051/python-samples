@@ -22,3 +22,4 @@ with open(CSV_FILE, 'r') as f:
         dob = parse(row[3])
         age = date.today().year - dob.year
         print("Patient {0} {1}, Age {2}".format(firstname, lastname, age))
+        print "Test"
