@@ -10,3 +10,7 @@ class Teacher(Individual):
     """ Override the parent method """
     def fullname(self):
         return f'{self.lastname}, {self.firstname} teaches {self._subject}'
+
+    """ Overload the parent method """
+    def initials(self, prefix='Prof.'):
+        return f'{prefix} - {super().initials()}'
