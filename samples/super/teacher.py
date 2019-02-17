@@ -11,6 +11,11 @@ class Teacher(Individual):
     def fullname(self):
         return f'{self.lastname}, {self.firstname} teaches {self._subject}'
 
-    """ Overload the parent method """
+    """
+        Overloading the parent method.
+        In python you can't have multiple method with the same function name,
+        you achieve overloading by providing a list of optional parameters.
+        (https://stackoverflow.com/questions/10202938/how-do-i-use-method-overloading-in-python)
+    """
     def initials(self, prefix='Prof.'):
         return f'{prefix} - {super().initials()}'
