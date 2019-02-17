@@ -2,5 +2,5 @@
 
 A collection of code snippets for common task in Python 3.
 
-* [super()](/samples/super) (OOP: inheritance, override and overload)
+* [super()](/samples/super) (inheritance, override and overload)
 * [pytest](/samples/pytest)
