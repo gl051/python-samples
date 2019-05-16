@@ -1,6 +1,6 @@
 # Tutorial on using pytest
 
-Instal _pytest_ module:
+Install _pytest_ module:
 
 `pipenv install pytest`
 
@@ -40,7 +40,7 @@ To provide parameterize invocation of the same test use the function decorator:
 
 To jump into a PDB session at the first failure of your tests:
 
-`pytest --pdb tests/` 
+`pytest --pdb tests/`
 
 ### Running tests
 ```
