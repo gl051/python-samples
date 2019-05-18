@@ -11,3 +11,13 @@ print(f"parts: {readme.parts}")
 print(f"absolute: {readme.absolute}")
 print(f"name, steam, suffix: {readme.name}, {readme.stem}, {readme.suffix}")
 print(f"parent: {readme.parent}")
+
+# create a directory and write a file there
+# chaing the command to create directory
+# you can use the path open method to open a file
+directory_path = readme.parent.joinpath('hello')
+directory_path.mkdir(exist_ok=True)
+print(f"created directory {directory_path}")
+file_to_write = directory_path / 'demo.out'
+with open(file_to_write, 'w+') as f:
+    f.write("Hello from python samples run\n")

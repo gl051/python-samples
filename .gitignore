@@ -8,3 +8,6 @@ set-mygit.sh
 
 # dotenv
 .env
+
+# artifacts
+samples/pathlib/hello
