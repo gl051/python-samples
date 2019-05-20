@@ -21,3 +21,8 @@ print(f"created directory {directory_path}")
 file_to_write = directory_path / 'demo.out'
 with open(file_to_write, 'w+') as f:
     f.write("Hello from python samples run\n")
+
+
+# use glob to find only certain files
+for p in directory_path.glob('*.out'):
+    print(p)
