@@ -11,3 +11,5 @@ set-mygit.sh
 
 # artifacts
 samples/pathlib/hello
+.venv/
+.vscode
